@@ -1,0 +1,52 @@
+<html>
+  <body>
+    <center>
+      <h1 id="header">PREDICTION :</h1>
+      {% if data==0 %}
+      <h1 style="color:black">Drizzling</h1>
+      <style>
+        body   {background-image: url("/static/driz.jpg"); background-repeat: no-repeat; background-size: 1540px 768px;}
+        #header   {color: black;}
+        #link     {color:black;}
+        </style>
+      {% endif %}
+      {% if data==1 %}
+      <h1 style="color:aliceblue">Fog</h1>
+      <style>
+        body   {background-image: url("/static/fog.jpg"); background-repeat: no-repeat; background-size: 1540px 768px;}
+        #header   {color: aliceblue;}
+        #link     {color:aliceblue;}
+      </style>
+      {% endif %}
+      {% if data==2 %}
+      <h1 style="color:aliceblue">Rain</h1>
+      <style>
+        body   {background-image: url("/static/rain.jpg"); background-repeat: no-repeat; background-size: 1540px 768px;}
+        #header   {color: aliceblue;}
+        #link     {color:aliceblue;}
+        </style>
+      {% endif %}
+      {% if data==3 %}
+      <h1 style="color:black">Snow</h1>
+      <style>
+        body   {background-image: url("/static/snow.jpg"); background-repeat: no-repeat; background-size: 1540px 768px;}
+        #header   {color: black;}
+        #link     {color: black;}
+        </style>
+      {% endif %}
+      {% if data==4 %}
+      <h1 style="color:aliceblue">Sunny</h1>
+      <style>
+        body   {background-image: url("/static/sunny.jpg"); background-repeat: no-repeat; background-size: 1540px 768px;}
+        #header   {color: aliceblue;}
+        #link     {color:aliceblue;}
+        </style>
+      {% endif %}
+
+      <br /><br />
+      <div style="margin-top:500px;">
+      <a id="link" href="/">go back to home page</a>
+      <div>
+    </center>
+  </body>
+</html>
